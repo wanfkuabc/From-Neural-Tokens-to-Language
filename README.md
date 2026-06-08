@@ -68,18 +68,6 @@ dataset/
 This repository will contain the implementation, experiment scripts, and supporting materials for the paper.
 Place CLIP and large language model files under the `models/` directory. If model checkpoints are too large for GitHub, please provide download instructions in `models/README.md` instead of committing the checkpoint files directly.
 
-## Repository Structure
-Recommended layout:
-
-```text
-.
-├── README.md
-└── .gitignore
-models/
-|-- clip/
-`-- llm/
-```
-
 ## Installation
 
 ```bash
@@ -100,20 +88,4 @@ python scripts/train.py --config configs/default.yaml
 python scripts/evaluate.py --config configs/default.yaml
 ```
 
-## Citation
 
-Citation information will be added when available.
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@article{from_neural_tokens_to_language,
-  title={From Neural Tokens to Language: Dual-View EEG Semantic Bridging for Brain-to-Text Generation},
-  author={},
-  journal={},
-  year={2026}
-}
-```
-
-## License
-
-The license will be added later.
